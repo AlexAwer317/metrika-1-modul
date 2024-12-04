@@ -21,6 +21,10 @@ body {
 
 }
 
+p {
+    letter-spacing: -0.03em;
+}
+
 .nav-section {
     background: #ffffff;
     margin-left: 125px;
@@ -40,7 +44,7 @@ body {
 
 .nav {
     display: inline-block;
-    margin-left: 540px;
+    margin-left: 557.46px;
 }
 
 .nav-link {
@@ -55,14 +59,18 @@ body {
 .nav-link-active {
     color: rgb(18, 18, 18);
     text-decoration: underline;
+    opacity: 20%;
 }
 
 .Main-interier {
     position: relative;
     margin-top: 30px;
     height: 500px;
+    box-sizing: border-box;
     width: 1150px;
     background-image: url(/resources/Rectangle_Image_Room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -94,6 +102,10 @@ h1 {
 
 }
 
+a {
+    letter-spacing: -0.03em;
+}
+
 h2 {
     font-size: 18px;
     font-weight: 400;
@@ -106,18 +118,24 @@ h2 {
 h3 {
     font-weight: 400;
     font-size: 30px;
+    letter-spacing: -0.03em;
 }
+
 
 h3.history-studio {
     font-size: 45px;
     margin-top: 30px;
+    width: 1048px;
     font-weight: 400;
     line-height: 61px;
     text-align: left;
 }
 
 .link_services {
+    width: 254px;
+    height: 66.87px;
     margin-top: 30px;
+    font-size: 20px;
     padding: 20px 40px;
     background-color: rgb(173, 24, 24);
     display: inline-block;
@@ -142,7 +160,6 @@ h3.history-studio {
 .item_image {
     width: 100%;
     height: 450px;
-    margin-bottom: 15px;
 }
 
 
@@ -151,12 +168,13 @@ h3.history-studio {
     line-height: 1px;
     text-align: left;
     color: rgb(18, 18, 18);
+    margin-top: 30px;
 }
 
 
 .link_more-info {
     height: 27px;
-    margin-top: 15px;
+    margin-top: 25px;
     display: inline-block;
     font-size: 20px;
     line-height: 27px;
@@ -185,8 +203,8 @@ h3.history-studio {
 }
 
 .services-section {
-    padding: 125px; 
-    width: 1400px;
+    padding: 150px 125px;
+    width: 100%;
     background-color: rgb(18, 18, 18);
 }
 
@@ -199,19 +217,23 @@ h3.history-studio {
     color: #f5f5f5;
 }
 
+.services-item {
+    margin-bottom: 60px;
+}
+
 .services-image {
     width: 100%;
     height: 270px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .services_item-description {
-    margin-bottom: 60px;
+
     line-height: 41px;
     color: rgb(255, 255, 255);
 }
 
-.services_item-description:nth-last-child(1)
+.services-item:nth-last-child(1)
 {
     margin-bottom: 0;
 }
@@ -234,3 +256,82 @@ h3.history-studio {
     width: 443px;
 
 }
+
+.contact-section {
+    margin-top: 150px;
+    margin-left: 125px;
+    margin-bottom: 150px;
+}
+
+.contact-container:before {
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    background-image: url("/resources/phone_icon.png");
+    width: 13px;
+    height: 22px;
+}
+
+.phonenumber a {
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+.email a {
+    display: block;
+    margin-top: 30px;
+    line-height: 60px;
+    font-size: 60px;
+    color: rgb(18, 18, 18);
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.email:after {
+    content: "";
+    display: block;
+    width: 406px;
+    height: 1px;
+    margin-top: 9px;
+    background-image: url("/resources/phone_line.png");
+    background-repeat: no-repeat;
+}
+
+
+.footer {
+    background-color: rgb(18, 18, 18);
+}
+
+.footer-container {
+    width: 507px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.footer-links a{
+
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-right: 50px;
+}
+
+.footer-links:nth-last-child(0) {
+    margin-right: 0;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 87px;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    cursor: pointer;
+}
+
